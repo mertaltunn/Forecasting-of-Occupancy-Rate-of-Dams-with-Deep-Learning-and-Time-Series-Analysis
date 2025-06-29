@@ -83,7 +83,7 @@ st.set_page_config(page_title="Istanbul Dams Forecasting", layout="wide", initia
 
 st.sidebar.title("Forecasting Dashboard")
 selected_dam = st.sidebar.selectbox("Select Dam", list(df.columns))
-forecast_days = st.sidebar.slider("Forecast Days", 7, 30, 20)
+forecast_days = st.sidebar.slider("Forecast Days", 7, 365, 20)
 selected_model = st.sidebar.selectbox("Select Model", ["Prophet", "SARIMA", "LSTM"])
 
 # Historical Data Visualization (optimized)
