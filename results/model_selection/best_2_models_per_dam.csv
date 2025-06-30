@@ -1,0 +1,21 @@
+Dam,Model Type,MAE,RMSE
+Alibey,Univariate_LSTM_Only_Occupancy,0.0035,0.0102
+Alibey,Single_Dam_Multivariate_LSTM_Extra_Inputs,0.0073,0.015
+Buyukcekmece,Univariate_LSTM_Only_Occupancy,0.0034,0.009
+Buyukcekmece,Single_Dam_Multivariate_LSTM_Extra_Inputs,0.0045,0.0146
+Darlik,Univariate_LSTM_Only_Occupancy,0.0042,0.0087
+Darlik,Multivariate_LSTM_Occupancy_Only,0.0063,0.0108
+Elmali,Univariate_LSTM_Only_Occupancy,0.0042,0.0137
+Elmali,Multivariate_LSTM_Occupancy_Only,0.0062,0.015
+Istrancalar,Univariate_LSTM_Only_Occupancy,0.0143,0.0354
+Istrancalar,Single_Dam_Multivariate_LSTM_Extra_Inputs,0.0147,0.0302
+Kazandere,Univariate_LSTM_Only_Occupancy,0.0055,0.0168
+Kazandere,Single_Dam_Multivariate_LSTM_Extra_Inputs,0.006,0.0138
+Omerli,Univariate_LSTM_Only_Occupancy,0.0034,0.007
+Omerli,Single_Dam_Multivariate_LSTM_Extra_Inputs,0.0041,0.008
+Pabucdere,Univariate_LSTM_Only_Occupancy,0.0048,0.0126
+Pabucdere,Single_Dam_Multivariate_LSTM_Extra_Inputs,0.0048,0.0143
+Sazlidere,Univariate_LSTM_Only_Occupancy,0.0026,0.0067
+Sazlidere,Single_Dam_Multivariate_LSTM_Extra_Inputs,0.0032,0.0081
+Terkos,Univariate_LSTM_Only_Occupancy,0.0024,0.0072
+Terkos,Single_Dam_Multivariate_LSTM_Extra_Inputs,0.0059,0.0117

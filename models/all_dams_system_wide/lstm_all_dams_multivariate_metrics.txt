@@ -1,0 +1,11 @@
+Model Type: All Dams Multivariate LSTM
+Omerli - MAE: 0.1188, RMSE: 0.1372
+Darlik - MAE: 0.0542, RMSE: 0.0732
+Elmali - MAE: 0.0567, RMSE: 0.0786
+Terkos - MAE: 0.0911, RMSE: 0.1072
+Alibey - MAE: 0.0721, RMSE: 0.0992
+Buyukcekmece - MAE: 0.0648, RMSE: 0.0767
+Sazlidere - MAE: 0.1044, RMSE: 0.1126
+Kazandere - MAE: 0.0477, RMSE: 0.0658
+Pabucdere - MAE: 0.0369, RMSE: 0.0467
+Istrancalar - MAE: 0.0652, RMSE: 0.0866
