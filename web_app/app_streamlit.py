@@ -471,6 +471,20 @@ forecast_horizon_days = st.sidebar.slider("Forecast Horizon (days)", 7, 365, 365
 # --- Analysis Button ---
 show_analysis = st.sidebar.button("Analysis")
 
+if st.sidebar.button("Data Analysis"):
+    data_analysis_dir = os.path.join(RESULTS_DIR, "plots", "Data Analysis")
+    if os.path.exists(data_analysis_dir):
+        data_analysis_files = [f for f in os.listdir(data_analysis_dir) if f.endswith('.png')]
+        if data_analysis_files:
+            st.subheader("Data Analysis Görselleri")
+            for data_analysis_file in sorted(data_analysis_files):
+                data_analysis_path = os.path.join(data_analysis_dir, data_analysis_file)
+                st.image(data_analysis_path, use_column_width=True)
+        else:
+            st.warning("'Data Analysis' klasöründe png formatında görsel bulunamadı.")
+    else:
+        st.warning("'Data Analysis' analiz klasörü bulunamadı.")
+        
 # --- Main Content Area ---
 if show_analysis:
     st.header(f"Analysis Plots for {selected_dam}")
