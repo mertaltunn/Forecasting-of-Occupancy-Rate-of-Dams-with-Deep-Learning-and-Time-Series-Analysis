@@ -1,0 +1,11 @@
+Dam,Model Type,MAE,RMSE
+Alibey,Univariate_LSTM_Only_Occupancy,0.0035,0.0102
+Buyukcekmece,Univariate_LSTM_Only_Occupancy,0.0034,0.009
+Darlik,Univariate_LSTM_Only_Occupancy,0.0042,0.0087
+Elmali,Univariate_LSTM_Only_Occupancy,0.0042,0.0137
+Istrancalar,Univariate_LSTM_Only_Occupancy,0.0143,0.0354
+Kazandere,Univariate_LSTM_Only_Occupancy,0.0055,0.0168
+Omerli,Univariate_LSTM_Only_Occupancy,0.0034,0.007
+Pabucdere,Univariate_LSTM_Only_Occupancy,0.0048,0.0126
+Sazlidere,Univariate_LSTM_Only_Occupancy,0.0026,0.0067
+Terkos,Univariate_LSTM_Only_Occupancy,0.0024,0.0072
