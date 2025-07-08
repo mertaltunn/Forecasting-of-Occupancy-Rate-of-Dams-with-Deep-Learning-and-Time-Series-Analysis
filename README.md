@@ -34,7 +34,7 @@ To run the project locally, follow these steps:
 
 Clone the Repository:
 
-git clone https://github.com/YOUR_USERNAME/dam_forecasting_project.git
+git clone https://github.com/mertaltunn/dam_forecasting_project.git
 cd dam_forecasting_project
 
 Create and Activate a Virtual Environment (Recommended):
@@ -49,7 +49,6 @@ Install Required Libraries:
 
 pip install -r requirements.txt
 
-(If you don't have a requirements.txt file, you might need to manually install all libraries used in the project: pandas, numpy, matplotlib, scikit-learn, tensorflow, prophet, pmdarima, streamlit, joblib, statsmodels.)
 
 Prepare Data Files:
 
